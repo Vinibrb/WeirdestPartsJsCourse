@@ -5,11 +5,11 @@ function Person (firstname, lastname) {
   console.log('This function is invoked.');
 }
 
-var john = new Person('John', 'Doe');
+var john = Person('John', 'Doe');
 
 console.log(john);
 
-var jane = new Person('Jane', 'Doe');
+var jane = Person('Jane', 'Doe');
 console.log(jane);
 
 Person.prototype.getFormalFullName = function() {
